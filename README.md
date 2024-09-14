@@ -1,29 +1,13 @@
-# README #
+# My Meeting Backend Server
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Project Overview: Developed a backend server using Node.js and Express.js, featuring a microservice architecture for scalability and modularity.
 
-### What is this repository for? ###
+Key Features:
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. Microservice Architecture: Modularized the application into independent services for better scalability and maintenance.
+2. Database: Used MongoDB for flexible data storage.
+3. Real-Time Communication: Integrated Socket.io for real-time chat and notifications.
+4. Payment Integration: Implemented payment services with Razorpay, Cashfree, and Instamojo gateways.
+5. Video Conferencing: Leveraged Zegocloud RoomKit and Education Cloud APIs for video calls.
+6. Email Services: Used Nodemailer for email communication.
+7. Security: Applied middleware for role-based access control for User, Vendor, Admin, Super Admin, and Back Office roles.
